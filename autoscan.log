@@ -1,0 +1,42 @@
+autoscan: warning: missing AC_CHECK_FUNCS([memset]) wanted by: 
+	src/getopt.c:325
+	src/getopt.c:437
+	src/options.c:36
+autoscan: warning: missing AC_CHECK_FUNCS([select]) wanted by: 
+	src/main.c:352
+autoscan: warning: missing AC_CHECK_FUNCS([strchr]) wanted by: 
+	src/options.c:170
+	src/main.c:643
+	src/main.c:645
+autoscan: warning: missing AC_CHECK_FUNCS([strrchr]) wanted by: 
+	src/options.c:150
+	src/main.c:505
+autoscan: warning: missing AC_CHECK_HEADERS([libintl.h]) wanted by: 
+	src/getopt.c:83
+autoscan: warning: missing AC_CHECK_HEADERS([stdlib.h]) wanted by: 
+	src/getopt.c:68
+	src/scrot.h:39
+	src/getopt1.c:58
+autoscan: warning: missing AC_CHECK_HEADERS([string.h]) wanted by: 
+	src/getopt.c:75
+	src/getopt.c:198
+	src/scrot.h:38
+autoscan: warning: missing AC_CHECK_HEADERS([sys/time.h]) wanted by: 
+	src/scrot.h:44
+autoscan: warning: missing AC_CHECK_HEADERS([unistd.h]) wanted by: 
+	src/getopt.c:69
+	src/scrot.h:40
+autoscan: warning: missing AC_FUNC_MALLOC wanted by: 
+	src/getopt.c:319
+	src/getopt.c:433
+autoscan: warning: missing AC_PATH_X wanted by: 
+	src/scrot.h:29
+autoscan: warning: missing AC_TYPE_SIZE_T wanted by: 
+	src/options.c:142
+	src/options.c:145
+	src/main.c:154
+	src/main.c:155
+	src/main.c:155
+	src/scrot.h:76
+	src/scrot.h:76
+	src/scrot.h:76
