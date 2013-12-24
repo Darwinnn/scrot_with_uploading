@@ -437,7 +437,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/darwin/work/projects/scrot_fork/scrot-0.8'
+ac_pwd='/home/darwin/work/projects/scrot_fork/scrot-0.8_uploadpatch'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 test -n "$AWK" || AWK=awk
@@ -633,9 +633,9 @@ S["CC"]="gcc"
 S["SET_MAKE"]=""
 S["MAKEINFO"]="makeinfo"
 S["AUTOHEADER"]="autoheader"
-S["AUTOMAKE"]="/home/darwin/work/projects/scrot_fork/scrot-0.8/missing automake-1.4"
+S["AUTOMAKE"]="/home/darwin/work/projects/scrot_fork/scrot-0.8_uploadpatch/missing automake-1.4"
 S["AUTOCONF"]="autoconf"
-S["ACLOCAL"]="/home/darwin/work/projects/scrot_fork/scrot-0.8/missing aclocal-1.4"
+S["ACLOCAL"]="/home/darwin/work/projects/scrot_fork/scrot-0.8_uploadpatch/missing aclocal-1.4"
 S["VERSION"]="0.8"
 S["PACKAGE"]="scrot"
 S["INSTALL_DATA"]="${INSTALL} -m 644"

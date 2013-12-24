@@ -28,8 +28,8 @@ AC_SUBST(GIBLIB_CFLAGS)
 AC_CHECK_FUNC(getopt_long,,[LIBOBJS="$LIBOBJS getopt.o getopt1.o"])
 AC_SUBST(LIBOBJS)
 
-AC_CHECK_LIB(curl, curl_version)
-AC_CHECK_LIB(jansson, json_true)
+AC_CHECK_LIB(curl, curl_version, ,[AC_MSG_ERROR("You need to install libcurl")])
+AC_CHECK_LIB(jansson, json_loads, ,[AC_MSG_ERROR(You need to install jansson)])
 
 AC_CONFIG_FILES([Makefile \
 scrot.spec \

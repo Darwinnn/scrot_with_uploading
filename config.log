@@ -141,11 +141,11 @@ configure:3364: checking for curl_version in -lcurl
 configure:3389: gcc -o conftest -g -O2   conftest.c -lcurl   -lm -lcurl -ljansson >&5
 configure:3389: $? = 0
 configure:3398: result: yes
-configure:3409: checking for json_true in -ljansson
-configure:3434: gcc -o conftest -g -O2   conftest.c -ljansson  -lcurl  -lm -lcurl -ljansson >&5
-configure:3434: $? = 0
-configure:3443: result: yes
-configure:3571: creating ./config.status
+configure:3411: checking for json_loads in -ljansson
+configure:3436: gcc -o conftest -g -O2   conftest.c -ljansson  -lcurl  -lm -lcurl -ljansson >&5
+configure:3436: $? = 0
+configure:3445: result: yes
+configure:3575: creating ./config.status
 
 ## ---------------------- ##
 ## Running config.status. ##
@@ -195,7 +195,7 @@ ac_cv_env_target_alias_set=
 ac_cv_env_target_alias_value=
 ac_cv_func_getopt_long=yes
 ac_cv_lib_curl_curl_version=yes
-ac_cv_lib_jansson_json_true=yes
+ac_cv_lib_jansson_json_loads=yes
 ac_cv_objext=o
 ac_cv_path_GIBLIB_CONFIG=/usr/bin/giblib-config
 ac_cv_path_install='/usr/bin/install -c'
@@ -209,10 +209,10 @@ am_cv_prog_cc_stdc=
 ## Output variables. ##
 ## ----------------- ##
 
-ACLOCAL='/home/darwin/work/projects/scrot_fork/scrot-0.8/missing aclocal-1.4'
+ACLOCAL='/home/darwin/work/projects/scrot_fork/scrot-0.8_uploadpatch/missing aclocal-1.4'
 AUTOCONF='autoconf'
 AUTOHEADER='autoheader'
-AUTOMAKE='/home/darwin/work/projects/scrot_fork/scrot-0.8/missing automake-1.4'
+AUTOMAKE='/home/darwin/work/projects/scrot_fork/scrot-0.8_uploadpatch/missing automake-1.4'
 CC='gcc'
 CFLAGS='-g -O2'
 CPPFLAGS=''

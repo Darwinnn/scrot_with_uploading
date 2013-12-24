@@ -42,9 +42,9 @@ pkgincludedir = $(includedir)/scrot
 
 top_builddir = ..
 
-ACLOCAL = /home/darwin/work/projects/scrot_fork/scrot-0.8/missing aclocal-1.4
+ACLOCAL = /home/darwin/work/projects/scrot_fork/scrot-0.8_uploadpatch/missing aclocal-1.4
 AUTOCONF = autoconf
-AUTOMAKE = /home/darwin/work/projects/scrot_fork/scrot-0.8/missing automake-1.4
+AUTOMAKE = /home/darwin/work/projects/scrot_fork/scrot-0.8_uploadpatch/missing automake-1.4
 AUTOHEADER = autoheader
 
 INSTALL = /usr/bin/install -c
